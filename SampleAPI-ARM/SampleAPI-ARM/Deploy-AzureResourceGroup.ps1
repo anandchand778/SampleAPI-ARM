@@ -100,7 +100,7 @@ if ($ValidateOnly) {
                                                                                   -TemplateParameterFile $TemplateParametersFile `
                                                                                   @OptionalParameters)
     if ($ErrorMessages) {
-        Write-Output '', 'Validation returned the following errors:', @($ErrorMessages), '', 'Template is invalid.'
+        Write-Output '', 'Validation returned the following errors: anand', @($ErrorMessages), '', 'Template is invalid.'
     }
     else {
         Write-Output '', 'Template is valid.'
